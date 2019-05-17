@@ -1,0 +1,102 @@
+name: xz_address_list
+description: 行知探索通讯录APP
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  image_picker: ^0.6.0+1
+  path_provider: ^0.5.0+1
+  sqflite: ^1.1.0
+  device_info: ^0.4.0
+  webview_flutter: "^0.3.7+1"
+  date_format: ^1.0.4
+  intl: ^0.15.6
+  cupertino_icons: ^0.1.2
+  qr_flutter: ^1.1.3
+  barcode_scan: ^1.0.0
+  lpinyin: ^1.0.7
+  azlistview: ^0.1.0
+  dio: ^2.1.0
+  convert: ^2.1.1
+  fluttertoast: ^3.0.4
+  flutter_spinkit: ^3.1.0
+  flutter_easyrefresh: ^1.2.7
+  fluwx: ^0.6.2
+  flutter_swiper: ^1.1.5
+  flutter_sound: ^1.3.6
+  web_socket_channel: ^1.0.12
+  # amap_base: ^0.3.5
+  # amap_base_map: "0.4.4+1"
+  # amap_base_location: "0.4.0+1"
+  # amap_base_search: "0.4.1"
+  # amap_base_navi: "0.4.0+1"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets: 
+
+  - images/loading.jpeg
+
+  # tab切换图片资源
+  - images/address_icon_active.png
+  - images/address_icon.png
+  - images/messages_icon_active.png
+  - images/messages_icon.png
+  - images/my_icon_active.png
+  - images/my_icon.png
+  - images/find_icon.png
+  - images/find_icon_active.png
+
+  #菜单按钮
+  - images/icon_menu_addfriend.png
+
+  #好友模块图标
+  - images/icon_addfriend.png
+  - images/icon_groupchat.png
+
+  #发现模块icon
+  - images/find_friend_circle.png
+  - images/find_scan.png
+  - images/find_shake.png
+  - images/find_show.png
+  - images/find_sou.png
+  - images/find_nearby.png
+  - images/find_bottle.png
+  - images/find_shop.png
+  - images/find_game.png
+  - images/find_xcx.png
+
+  #空头像
+  - images/avatar_temp.png
+  - images/default_nor_avatar.png
+
+  - assets/data/contacts.json
+
+  #我的
+  - images/me_college.png
+  - images/me_gallary.png
+  - images/me_wallet.png
+  - images/me_face.png
+  - images/me_setting.png
+  - images/me_pay.png
+
+  #二维码背景
+  - images/qrcode_bg.png
+
+  fonts:
+    - family: wxIconFont
+      fonts:
+        - asset: assets/fonts/iconfont.ttf
