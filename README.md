@@ -1,7 +1,5 @@
 ## 项目名字为
-   xz_address_list
-
-行知探索通讯录APP
+   xz_address_list 通讯录APP
 
 ## Getting Started
 
